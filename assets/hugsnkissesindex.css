@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+}
+
+body {
+    background: #D6BCFA;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    position: absolute bottom;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex: 0;
+    background: #372E59;
+    width: 100%;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+#bglogo {
+    max-width: 100%;
+}
+
+.navi {
+    text-decoration: none;
+    color: #D6BCFA;
+    padding: 1em;
+    transition: 0.05s all ease-in;
+    float: left;
+}
+
+.item:hover {
+    color: #9F7AEA;
+}
+
+.item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.identity img {
+    width: 384px;
+    height: 384px;
+}
+
+.channel-name {
+    font-size: 2em;
+}
+
+.channel-list {
+    display: flex;
+    align-items: flex-start;
+}
+
+.identity {
+    padding: 0.2em;
+    text-align: center;
+}
+
+.identity:nth-child(1) {
+    padding-left: 0;
+}
